@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+body {
+    color: #ffd700;
+  }
+
+h1 {
+    font-family: 'Poppins'; 
+    font-size: 30px;
+}
+
+p {
+    font-family: 'Poppins'; 
+    font-size: 16px;
+}
+
+a {
+    font-family: 'Poppins'; 
+}
+
+#hero {
+    display: flex;
+    width: 100vw;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: #0e1111;
+}
+
+#bio-image {
+    height: 35.5 rem;
+    width: 25.5rem;
+    float: right;
+}
+
+#bio {
+    width: 100vw;
+    height: 600px;
+    float: left;
+    background-color: #000024;
+}
+
+#bio-header {
+text-align: center;
+margin: 12px;
+}
+
+#bio-paragraph {
+    width: 100vw;
+    height: 600px;
+    float: left;
+}
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e1111;
+}
+
+#project-header {
+    text-align: center;
+    background-color: #0e1111;
+}
+
+.project-image {
+    width: 75%;
+    height: 75%;
+  }
+
+.project-card {
+    text-align: center;
+    width: 21.875rem;
+    padding: 1rem;
+    border: 0.1px solid #ffd700;
+  }
+
